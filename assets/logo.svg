@@ -1,0 +1,18 @@
+<svg width="220" height="220" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="FornaX RDS Ai logo">
+  <defs>
+    <linearGradient id="grnGrad" x1="220" y1="240" x2="470" y2="820" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2fe3a8"/>
+      <stop offset="1" stop-color="#13bda6"/>
+    </linearGradient>
+    <linearGradient id="bluGrad" x1="400" y1="150" x2="720" y2="660" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b63ff"/>
+      <stop offset="1" stop-color="#7d54ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="228" fill="#000000"/>
+  <path d="M250 252 L452 302 L470 742 L272 800 Z" fill="url(#grnGrad)" stroke="url(#grnGrad)" stroke-width="40" stroke-linejoin="round"/>
+  <path d="M404 158 L566 210 Q712 350 712 402 Q712 454 566 548 L404 662 L478 412 Z" fill="url(#bluGrad)" stroke="url(#bluGrad)" stroke-width="36" stroke-linejoin="round"/>
+  <path d="M412 312 L470 372 L458 542 L402 558 Z" fill="#13577a"/>
+  <circle cx="742" cy="726" r="208" fill="#f7f9fa"/>
+  <text x="742" y="802" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="248" fill="#5b6472" letter-spacing="-6">Ai</text>
+</svg>
