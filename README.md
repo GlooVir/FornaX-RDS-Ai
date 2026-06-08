@@ -8,10 +8,13 @@
 
 **Your Mac, from anywhere. Your AI, going nowhere.**
 
+Turn any Apple Silicon Mac into a private AI server **and** a full-quality remote desktop — run any local model, reach it from any device, and pay **$0 per token**.
+
 [![Release](https://img.shields.io/badge/release-July%201%2C%202026-brightgreen)]()
 [![Platform](https://img.shields.io/badge/platform-macOS%2015%20Sequoia%2B-blue)]()
 [![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-only-black)]()
 
+### ⭐ Star this repo to get notified the moment the binary drops on **July 1, 2026**.
 
 <!-- HERO IMAGE (add later): drop a 1280×640 banner into assets/screenshots/ and uncomment:
 <br>
@@ -47,6 +50,25 @@ One install, two ways to use your Mac:
 | **−80% CPU** | VideoToolbox HEVC/H.264 hardware encoding, zero-copy capture, adaptive bitrate |
 | **Any local model** | Ollama + Rapid-MLX engines built in — run any open model on your Mac; 31+ cloud providers optional |
 | **$0 token cost** | On-device AI: unlimited use, your data never leaves your Mac |
+
+## How it works
+
+```mermaid
+flowchart LR
+  subgraph Devices["Connect from any device"]
+    direction TB
+    A["iPad"]
+    B["Windows laptop"]
+    C["iPhone"]
+    D["Another Mac"]
+  end
+  Devices -->|"RDP · iMessage · CLI"| M["Your Apple Silicon Mac<br/>— FornaX RDS Ai —"]
+  M --> R["Remote desktop<br/>AVC444 4:4:4 · HW-accelerated"]
+  M --> AI["Local AI assistant<br/>Ollama + MLX · $0 tokens"]
+  AI -.->|"opt-in"| K["31+ cloud providers<br/>Claude · OpenAI · Gemini · …"]
+```
+
+Your Mac does all the heavy lifting — remote desktop streaming **and** local AI inference. Lightweight devices just connect in; your data and your models stay on the machine.
 
 ## Your Mac Studio's power — on your iPad, from anywhere
 
@@ -90,7 +112,14 @@ We looked. A few projects do parts of this — but nothing combines all three, a
 | Apple Screen Sharing | ❌ proprietary, Mac-to-Mac client only | — | ❌ |
 | Windows RDP (for comparison) | Windows only | ✅ | ❌ |
 
-That makes FornaX RDS Ai the most advanced AI-enabled solution available for **developers** (unlimited private coding assistant — your code never leaves the Mac), **designers** (4:4:4 pixel-accurate color over remote, no chroma blur), and **everyday Mac users** (a voice-enabled daily assistant reachable even from iMessage).
+## Who it's for
+
+| You are a... | What FornaX RDS Ai gives you |
+|---|---|
+| 👩‍💻 **Developer** | An unlimited private coding assistant **and** an OpenAI/Anthropic-compatible local API for Claude Code, Cursor, and Aider — your code never leaves the Mac |
+| 🎨 **Designer / creative** | 4:4:4 pixel-accurate color over remote — edit and review from an iPad with no chroma blur |
+| 💼 **Everyday Mac user** | A voice assistant you can reach from iMessage — summarize, schedule, and reply, hands-free |
+| 🏢 **Team / enterprise** | On-prem AI for every Mac: zero data egress, no per-seat LLM fees, MDM-deployable |
 
 ## Features
 
