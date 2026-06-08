@@ -12,7 +12,6 @@
 [![Platform](https://img.shields.io/badge/platform-macOS%2015%20Sequoia%2B-blue)]()
 [![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-only-black)]()
 
-[English](README.md) | [한국어](README.ko.md)
 
 <!-- HERO IMAGE (add later): drop a 1280×640 banner into assets/screenshots/ and uncomment:
 <br>
@@ -85,7 +84,7 @@ We looked. A few projects do parts of this — but nothing combines all three, a
 
 | | Mac-native **RDP server** | 4:4:4 full-color codec | Built-in **AI assistant** (local LLM) |
 |---|:---:|:---:|:---:|
-| **FornaX RDS Ai** | ✅ | ✅ AVC444/v2 | ✅ 31+ providers, on-device |
+| **FornaX RDS Ai** | ✅ | ✅ AVC444/v2 | ✅ local + 31+ cloud providers |
 | xrdp (open source) | ❌ Linux only — macOS port is an unofficial WIP | ❌ | ❌ |
 | RustDesk / Sunshine (open source) | ❌ own protocols, not RDP | ❌ | ❌ |
 | Apple Screen Sharing | ❌ proprietary, Mac-to-Mac client only | — | ❌ |
