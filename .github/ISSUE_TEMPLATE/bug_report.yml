@@ -1,0 +1,41 @@
+name: Bug report
+description: Something isn't working as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Please don't include passwords, license keys, or other private information.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Remote desktop (connecting, screen, input, audio, clipboard)
+        - Local AI (models, chat, voice, images)
+        - Install / update / license
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: FornaX RDS Ai version
+      placeholder: e.g. 3.1.1437.0
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model and macOS version
+      placeholder: e.g. Mac Studio M2 Max, macOS 15.3
+  - type: input
+    id: client
+    attributes:
+      label: Client device and app (for remote desktop issues)
+      placeholder: e.g. iPad Pro with Windows App 11.0

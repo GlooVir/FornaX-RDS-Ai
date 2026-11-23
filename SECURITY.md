@@ -1,21 +1,17 @@
 # Security Policy
 
-## Supported Versions
+## Supported versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Security fixes are delivered in the latest release of FornaX RDS Ai. Please keep the app up to date; you can always get the current version from the [product page](https://www.gloovir.com/products/fornax-rds-ai).
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+## Reporting a vulnerability
 
-## Reporting a Vulnerability
+Please **do not** report security issues in public Issues or Discussions.
 
-Use this section to tell people how to report a vulnerability.
+Instead, email **contact@gloovir.com** with the subject "Security report" and include:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- what you found and how it could affect users
+- steps to reproduce, and the app version and macOS version you tested
+- any proof-of-concept details you are comfortable sharing
+
+We will acknowledge your report, keep you updated while we investigate, and credit you in our release notes if you would like. Please give us reasonable time to ship a fix before disclosing details publicly.

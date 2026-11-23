@@ -4,6 +4,8 @@
 
 # FornaX RDS Ai
 
+**English** · [한국어](README.ko.md) · [日本語](README.ja.md)
+
 ### Local AI on your Mac, ready in minutes — and usable from any screen you own.
 
 **Your Mac, from anywhere. Your AI, going nowhere.**

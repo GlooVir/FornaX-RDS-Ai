@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/GlooVir/FornaX-RDS-Ai/discussions
+    about: Ask a question or share how you use FornaX RDS Ai.
+  - name: Download and pricing
+    url: https://www.gloovir.com/products/fornax-rds-ai
+    about: Get the app and see plans on the product page.
+  - name: Security issues
+    url: https://github.com/GlooVir/FornaX-RDS-Ai/security/policy
+    about: Please report security issues privately as described in our security policy.
