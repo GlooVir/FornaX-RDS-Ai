@@ -130,7 +130,7 @@ That makes FornaX RDS Ai the most advanced AI-enabled solution available for **d
 
 ### Remote Desktop
 
-<p align="center"><img src="assets/screenshots/avc444-compare.png" alt="4:4:4 full color vs 4:2:0 — colored text sharpness comparison" width="900"></p>
+> **Why 4:4:4 matters:** most remote desktops send color at a quarter of the resolution (4:2:0), which blurs colored text and thin UI lines. With an AVC444-capable client, FornaX RDS Ai sends full color for every pixel, so code, charts, and design work stay crisp.
 
 - Full-color **AVC444 / AVC444v2 (YUV 4:4:4)** streaming — no chroma blur on text and UI
 - **Apple Silicon acceleration**: VideoToolbox **HEVC/H.264** hardware encoding (~80% lower CPU), zero-copy capture, adaptive bitrate — low-power and low-latency
