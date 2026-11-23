@@ -15,10 +15,8 @@
 [![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-only-black)]()
 
 
-<!-- HERO IMAGE (add later): drop a 1280×640 banner into assets/screenshots/ and uncomment:
 <br>
-<img src="assets/screenshots/hero.png" alt="FornaX RDS Ai — remote macOS desktop and built-in AI assistant" width="900">
--->
+<img src="assets/screenshots/hero.png" alt="FornaX RDS Ai — use your Mac from an iPad while a local AI model answers on the Mac" width="900">
 
 </div>
 
@@ -29,6 +27,14 @@
 > **Promotion key:** `FornaXRDS-Ai_20260708`
 >
 > **Star this repo** to follow FornaX RDS Ai. Source code is not published; FornaX RDS Ai is distributed as a signed binary.
+
+## Want local AI on your Mac? Skip the homework.
+
+<p align="center"><img src="assets/screenshots/local-ai.png" alt="Running local AI on a Mac yourself vs with FornaX RDS Ai" width="900"></p>
+
+Apple Silicon Macs are excellent at running AI models locally — private, offline, and with no per-token bill. The hard part is everything around the model: engines, Python environments, guessing what fits in memory, keeping a server alive, and wiring each tool to it. FornaX RDS Ai does all of that in one signed app, so you can **pick a model and start using it in minutes** — then reach it from any screen you own.
+
+<p align="center"><img src="assets/screenshots/how-it-works.png" alt="Devices and developer tools connect to one Mac that runs the AI models locally" width="900"></p>
 
 ## ✨ Recently added
 
@@ -124,9 +130,7 @@ That makes FornaX RDS Ai the most advanced AI-enabled solution available for **d
 
 ### Remote Desktop
 
-<!-- SCREENSHOT (add later): side-by-side text/color close-up, AVC444 vs 4:2:0 — then uncomment:
-<p align="center"><img src="assets/screenshots/avc444-compare.png" alt="AVC444 4:4:4 full-color quality vs 4:2:0 — text sharpness comparison" width="760"></p>
--->
+<p align="center"><img src="assets/screenshots/avc444-compare.png" alt="4:4:4 full color vs 4:2:0 — colored text sharpness comparison" width="900"></p>
 
 - Full-color **AVC444 / AVC444v2 (YUV 4:4:4)** streaming — no chroma blur on text and UI
 - **Apple Silicon acceleration**: VideoToolbox **HEVC/H.264** hardware encoding (~80% lower CPU), zero-copy capture, adaptive bitrate — low-power and low-latency
@@ -212,6 +216,29 @@ We want you to know exactly what you're getting. Here is our candid assessment �
 | AI features evolve fast | We ship **new models and features every month**, so the newest models and improvements are ready to use shortly after release — alongside continuous updates to providers and agent capabilities |
 
 This is not a "release and forget" product. **The roadmap below is a promise, and this repository is where we keep it.**
+
+## FAQ
+
+**How do I run a local LLM on my Mac without the terminal?**
+Install FornaX RDS Ai, open the model manager, and pick a model. Both Ollama and MLX engines are built in; the app checks memory and disk before downloading and starts the model for you.
+
+**Which Mac do I need for local AI?**
+Any Apple Silicon Mac (M1 or later) on macOS 13 Ventura or later. More unified memory lets you run larger models — the app shows what fits your Mac before you download.
+
+**Can I use Claude Code, Cursor, or Aider with local models on my Mac?**
+Yes. FornaX RDS Ai exposes an OpenAI- and Anthropic-compatible local endpoint, so those tools can run against models on your own Mac.
+
+**Is there an RDP server for macOS?**
+Yes — FornaX RDS Ai is a native RDP server for macOS. Connect with standard clients such as Windows App (Microsoft Remote Desktop) on Windows, iPad, iPhone, or another Mac.
+
+**How do I remote into my Mac from an iPad or a Windows PC?**
+Install FornaX RDS Ai on the Mac, then add the Mac in the Windows App / Remote Desktop client on your iPad or PC. You get the full Mac desktop, with 4:4:4 full color on clients that support AVC444.
+
+**Can I connect after my Mac restarts, without logging in at the Mac?**
+Yes. After an update or a power outage, you can connect straight from the login window — nobody needs to sit at the Mac first.
+
+**Does my data leave my Mac?**
+Not when you use local models. Conversations, memory, and your files stay on the Mac. Cloud AI providers are optional and used only when you choose them.
 
 ## Requirements
 
