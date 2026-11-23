@@ -8,8 +8,10 @@
 
 **Your Mac, from anywhere. Your AI, going nowhere.**
 
+*Restart your Mac Studio, walk away, and log in to it from your iPad — no one at the desk.<br>Then ask it to draw, summarize, or code — all on the Mac, nothing sent to the cloud.*
+
 [![Status](https://img.shields.io/badge/status-available%20now-brightgreen)](https://www.gloovir.com/products/fornax-rds-ai)
-[![Platform](https://img.shields.io/badge/platform-macOS%2015%20Sequoia%2B-blue)]()
+[![Platform](https://img.shields.io/badge/platform-macOS%2013%20Ventura%2B-blue)]()
 [![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-only-black)]()
 
 
@@ -26,7 +28,18 @@
 >
 > **Promotion key:** `FornaXRDS-Ai_20260708`
 >
-> **Watch / Star this repo** for monthly model & feature updates and per-release changelogs. Source code is not published; FornaX RDS Ai is distributed as a signed binary.
+> **Star this repo** to follow FornaX RDS Ai. Source code is not published; FornaX RDS Ai is distributed as a signed binary.
+
+## ✨ Recently added
+
+- 🔑 **Log in remotely right after a restart** — after an update or a power outage, connect straight from the login window. Nobody has to sit at the Mac first.
+- 🎨 **Create images, music, and video on your Mac** — download a model once, then generate and edit media during a chat, entirely on-device.
+- 🧠 **An assistant that doesn't forget** — what you ask it to remember is kept and can be recalled across conversations; it only forgets when *you* delete it.
+- 🚀 **"AI on this Mac" — get everything ready in one step** — chat, voice, and image models prepared together, with a clear view of what's ready.
+- 📂 **Answers from your own folders** — pick folders and the assistant searches the documents in them on your Mac.
+- 📱 **Smoother from an iPad** — faster screen updates, more responsive typing, and video that keeps playing instead of appearing frozen.
+
+Always get the latest version from the [**product page**](https://www.gloovir.com/products/fornax-rds-ai).
 
 ## What makes FornaX RDS Ai different
 
@@ -138,7 +151,7 @@ That makes FornaX RDS Ai the most advanced AI-enabled solution available for **d
 - **Usage & cost dashboard**: per-provider token usage and spend at a glance, one-click jump to each provider's console and API-key page
 
 ### App Experience
-- Fully localized app UI in **Korean and English**, switchable in settings
+- Fully localized app UI in **Korean, English, and Japanese**, switchable in settings
 - On update or uninstall, **choose to keep your data** (API keys, conversations, memory, knowledge base) — reinstall and pick up where you left off
 
 ### Privacy & Security
@@ -174,7 +187,7 @@ For organizations, FornaX RDS Ai means every Mac in the company can deliver a **
 - **Zero data egress by default**: AI runs on each employee's Mac. Internal code, documents, and conversations are never sent to external AI providers — a compliance answer, not just a privacy feature
 - **No per-seat AI subscription**: local LLMs eliminate recurring per-user LLM costs across the fleet; cloud providers remain an opt-in, per-task choice under your policy
 - **One install, two capabilities**: the same package gives employees a private AI assistant *and* secure full-quality remote access to their office Mac for hybrid work — over standard RDP, no new client software to deploy
-- **Manageable & verifiable**: signed and notarized PKG for MDM distribution, permission-gated automation, and a published network-behavior transparency document so your security team can verify what the software does
+- **Manageable & verifiable**: signed and notarized PKG for MDM distribution, permission-gated automation, and a network-behavior transparency document (in preparation) so your security team can verify what the software does
 - **Sensitive-industry fit**: ideal where cloud AI is restricted or prohibited — finance, legal, healthcare, defense, R&D
 
 > Sufficient is the wrong word — for most everyday workloads (coding assistance, document summarization, drafting, voice transcription), **on-device AI on Apple Silicon is not a compromise; it's the more secure default**. Cloud models stay available for the rare tasks that need them.
@@ -195,14 +208,14 @@ We want you to know exactly what you're getting. Here is our candid assessment �
 |---|---|
 | A closed-source binary that requests screen, input, and iMessage permissions demands a high level of trust | Every release is **Developer ID–signed and notarized** with SHA256 checksums. We will publish a network-behavior transparency document, and your AI data verifiably never leaves your Mac |
 | macOS updates can change capture and permission behavior | We track every macOS beta and commit to **compatibility updates before public OS releases** |
-| We're a new product competing with mature remote desktop tools | We ship **user-driven continuous updates** — your Issues and Discussions directly shape each release, and every version's changelog is published here |
+| We're a new product competing with mature remote desktop tools | We ship **user-driven continuous updates** — your Issues and Discussions directly shape each release |
 | AI features evolve fast | We ship **new models and features every month**, so the newest models and improvements are ready to use shortly after release — alongside continuous updates to providers and agent capabilities |
 
 This is not a "release and forget" product. **The roadmap below is a promise, and this repository is where we keep it.**
 
 ## Requirements
 
-- macOS 15 (Sequoia) or later
+- macOS 13 (Ventura) or later
 - **Apple Silicon Mac only** (Intel Macs are not supported)
 
 ## Roadmap
@@ -210,7 +223,6 @@ This is not a "release and forget" product. **The roadmap below is a promise, an
 - [x] Product introduction (this page)
 - [x] **Public binary release** — signed & notarized PKG installer, available now
 - [ ] Documentation & quick-start guide
-- [ ] Per-version changelogs published with every release
 - [ ] Network-behavior & privacy transparency document
 - [ ] New AI models and features shipped every month
 - [ ] Continuous updates driven by user feedback (Issues / Discussions open now)
