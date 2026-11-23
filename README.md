@@ -4,16 +4,15 @@
 
 # FornaX RDS Ai
 
-### A production-grade native RDP server for macOS — with a built-in on-device AI assistant.
+### Local AI on your Mac, ready in minutes — and usable from any screen you own.
 
 **Your Mac, from anywhere. Your AI, going nowhere.**
 
 *Restart your Mac Studio, walk away, and log in to it from your iPad — no one at the desk.<br>Then ask it to draw, summarize, or code — all on the Mac, nothing sent to the cloud.*
 
-[![Status](https://img.shields.io/badge/status-available%20now-brightgreen)](https://www.gloovir.com/products/fornax-rds-ai)
+[![Free to start](https://img.shields.io/badge/free-to%20start-brightgreen)](https://www.gloovir.com/products/fornax-rds-ai)
 [![Platform](https://img.shields.io/badge/platform-macOS%2013%20Ventura%2B-blue)]()
 [![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-only-black)]()
-
 
 <br>
 <img src="assets/screenshots/hero.png" alt="FornaX RDS Ai — use your Mac from an iPad while a local AI model answers on the Mac" width="900">
@@ -22,223 +21,119 @@
 
 ---
 
-> **⬇️ Available now.** FornaX RDS Ai ships as a signed & notarized PKG. To download, open the [**product page**](https://www.gloovir.com/products/fornax-rds-ai) and enter your **promotion key** — you'll receive an instant download link, no demo request required.
+> **⬇️ Free to start.** FornaX RDS Ai is a signed & notarized Mac app. Open the [**product page**](https://www.gloovir.com/products/fornax-rds-ai), enter the promotion key below, and you'll get a download link right away.
 >
 > **Promotion key:** `FornaXRDS-Ai_20260708`
 >
-> **Star this repo** to follow FornaX RDS Ai. Source code is not published; FornaX RDS Ai is distributed as a signed binary.
+> ⭐ **Star this repo** to follow FornaX RDS Ai. Source code is not published; the app is distributed as a signed binary.
 
 ## Want local AI on your Mac? Skip the homework.
 
 <p align="center"><img src="assets/screenshots/local-ai.png" alt="Running local AI on a Mac yourself vs with FornaX RDS Ai" width="900"></p>
 
-Apple Silicon Macs are excellent at running AI models locally — private, offline, and with no per-token bill. The hard part is everything around the model: engines, Python environments, guessing what fits in memory, keeping a server alive, and wiring each tool to it. FornaX RDS Ai does all of that in one signed app, so you can **pick a model and start using it in minutes** — then reach it from any screen you own.
+Apple Silicon Macs are excellent at running AI models locally — private, offline, and with no per-token bill. The hard part is everything around the model: engines, Python environments, guessing what fits in memory, keeping a server alive, and wiring each tool to it.
+
+FornaX RDS Ai does all of that in one app. **Pick a model and start using it in minutes** — then reach it from your iPad, iPhone, or Windows PC.
 
 <p align="center"><img src="assets/screenshots/how-it-works.png" alt="Devices and developer tools connect to one Mac that runs the AI models locally" width="900"></p>
 
-## ✨ Recently added
+## What you get
 
-- 🔑 **Log in remotely right after a restart** — after an update or a power outage, connect straight from the login window. Nobody has to sit at the Mac first.
-- 🎨 **Create images, music, and video on your Mac** — download a model once, then generate and edit media during a chat, entirely on-device.
-- 🧠 **An assistant that doesn't forget** — what you ask it to remember is kept and can be recalled across conversations; it only forgets when *you* delete it.
-- 🚀 **"AI on this Mac" — get everything ready in one step** — chat, voice, and image models prepared together, with a clear view of what's ready.
-- 📂 **Answers from your own folders** — pick folders and the assistant searches the documents in them on your Mac.
-- 📱 **Smoother from an iPad** — faster screen updates, more responsive typing, and video that keeps playing instead of appearing frozen.
+**Local AI, without the setup**
+- **Ollama and MLX engines built in** — run Llama, Qwen, Gemma, DeepSeek, Mistral, Phi and more on your Mac
+- **Model manager** that checks memory and disk before you download, with live progress
+- **"AI on this Mac"** — chat, voice, and image models ready in one step
+- **One local API** — OpenAI- and Anthropic-compatible, so Claude Code, Cursor, and Aider can use your Mac's models
 
-Always get the latest version from the [**product page**](https://www.gloovir.com/products/fornax-rds-ai).
+**An assistant that works for you**
+- Chat, **voice** (speak and hear replies), and **image, music, and video creation** — on the Mac
+- **Remembers** what you ask it to, and answers from **your own folders** and knowledge base
+- Reach it over **remote desktop, iMessage, or the command line**
+- Cloud AI (31+ providers) is **optional**, chosen per task
 
-## What makes FornaX RDS Ai different
-
-1. **One product that is both a remote desktop and an on-device AI assistant.** This is the part nothing else does — no remote desktop, open source or commercial, on any OS, ships with a built-in local-AI assistant. It's the heart of FornaX RDS Ai.
-2. **A polished, signed, supported RDP server — not a build-it-yourself project.** A few experimental macOS RDP servers exist on GitHub, but they're source-only projects you compile yourself. FornaX RDS Ai is a signed, notarized, installable product with ongoing updates and support.
-3. **Full-color AVC444 / AVC444v2 (YUV 4:4:4) quality.** Pixel-accurate color and razor-sharp text — a difference you can verify yourself in 30 seconds.
-
-Plus one more thing: with both **Ollama** and **Rapid-MLX** engines built in, FornaX RDS Ai is effectively **an open door to the entire local-model ecosystem**. Run virtually any open model — Llama, Qwen, Gemma, DeepSeek, Mistral, Phi and the rest — on your own Mac, and choose the engine that fits each model: Ollama for its broad library, MLX for Apple Silicon–native execution. Try every model, keep the ones you like, pay nothing per token.
-
-## What is FornaX RDS Ai?
-
-FornaX RDS Ai is a **remote desktop (RDP) server + built-in AI assistant platform for macOS**, built by [GlooVir](https://gloovir.com).
-
-One install, two ways to use your Mac:
-
-1. **Use your Mac's full power from anywhere** — connect from any standard RDP client (Windows, iPad, phone, another Mac) and use your Mac's CPU, GPU, and apps remotely, with full-color 4:4:4 image quality and hardware-accelerated low-latency streaming. No new client software to install.
-2. **A personal AI service — even when you never connect remotely** — local LLMs run directly on Apple Silicon inside FornaX RDS Ai. Sitting at your Mac, texting it via iMessage, or connected over RDP, you get an unlimited private AI assistant with **no monthly subscription and no token billing**.
-
-| | |
-|---|---|
-| **4:4:4** | Full-color AVC444/AVC444v2 — crisp text, accurate colors, verifiable in 30 seconds |
-| **−80% CPU** | VideoToolbox HEVC/H.264 hardware encoding, zero-copy capture, adaptive bitrate |
-| **Any local model** | Ollama + Rapid-MLX engines built in — run any open model on your Mac; 31+ cloud providers optional |
-| **$0 token cost** | On-device AI: unlimited use, your data never leaves your Mac |
-
-## Your Mac Studio's power — on your iPad, from anywhere
-
-<!-- SCREENSHOT (add later): iPad/Windows showing the full remote Mac desktop — then uncomment:
-<p align="center"><img src="assets/screenshots/ipad-remote.png" alt="Accessing a Mac Studio desktop from an iPad over RDP" width="760"></p>
--->
-
-A Mac Mini or Mac Studio is a serious workstation. FornaX RDS Ai turns it into one you can reach from almost anything with a standard RDP client — an **iPad** on the couch, a **Windows** laptop at a client site, a phone on the road. Heavy builds, video renders, and large local AI models all run on the powerful Mac sitting at home or in the office; your lightweight device just displays the result in full 4:4:4 color, at low latency.
-
-**The horsepower stays put. You go anywhere.** Buy compute once, use it from every screen you own — no per-device licenses, no syncing files back and forth, no cloud rental for the heavy lifting.
-
-## In practice
-
-- **On the train, from your phone:** text your Mac over iMessage — *"summarize today's meeting notes and draft a reply"* — and it's done before you arrive, processed entirely on your Mac.
-- **At your desk, hands-free:** speak to it. Whisper transcribes, a local model answers out loud, your files never leave the machine.
-- **Away from the office:** open any RDP client and your full Mac is right there in pixel-accurate color — edit, render, present as if you were sitting in front of it.
-
-One app does all of this. Nothing to wire together, no cloud account required to start.
-
-<!-- DEMO GIF (add later): iMessage → Mac AI reply, short (<6s, <5MB) — then uncomment:
-<p align="center"><img src="assets/screenshots/imessage-demo.gif" alt="Texting your Mac's AI assistant from iMessage" width="380"></p>
--->
-
-## Simple to set up
-
-1. **Download** — open the [product page](https://www.gloovir.com/products/fornax-rds-ai), enter your promotion key, and grab the signed PKG (no demo request needed).
-2. **Install** the signed, notarized PKG — double-click, done.
-3. **Grant** screen and accessibility permissions once.
-4. **Pick a model** from the in-app manager (or bring your own API key) and start chatting, speaking, or connecting.
-
-No servers to configure, no Docker, no command line. If you can install a Mac app, you can run FornaX RDS Ai.
-
-## Get FornaX RDS Ai
-
-FornaX RDS Ai is available now as a signed & notarized PKG.
-
-1. Go to the [**product page**](https://www.gloovir.com/products/fornax-rds-ai).
-2. Enter your **promotion key** — this replaces the demo request and returns your download link instantly.
-3. Download, install, and you're ready to go.
-
-> **Promotion key:** `FornaXRDS-Ai_20260708`
-
-## Is there anything else like this?
-
-We looked. A few projects do parts of this — but nothing combines all three, and nothing pairs a remote desktop with a built-in on-device AI assistant.
-
-| | Mac-native **RDP server** | 4:4:4 full-color codec | Built-in **AI assistant** (local LLM) |
-|---|:---:|:---:|:---:|
-| **FornaX RDS Ai** | ✅ | ✅ AVC444/v2 | ✅ local + 31+ cloud providers |
-| xrdp (open source) | ❌ Linux only — macOS port is an unofficial WIP | ❌ | ❌ |
-| RustDesk / Sunshine (open source) | ❌ own protocols, not RDP | ❌ | ❌ |
-| Apple Screen Sharing | ❌ proprietary, Mac-to-Mac client only | — | ❌ |
-| Windows RDP (for comparison) | Windows only | ✅ | ❌ |
-
-That makes FornaX RDS Ai the most advanced AI-enabled solution available for **developers** (unlimited private coding assistant — your code never leaves the Mac), **designers** (4:4:4 pixel-accurate color over remote, no chroma blur), and **everyday Mac users** (a voice-enabled daily assistant reachable even from iMessage).
-
-## Features
-
-### Remote Desktop
+**A real remote desktop for your Mac**
+- Native **RDP server for macOS** — connect with standard clients (Windows App / Microsoft Remote Desktop) from Windows, iPad, iPhone, or another Mac
+- **Log in remotely right after a restart** — no one needs to sit at the Mac first
+- Hardware-accelerated streaming on Apple Silicon, multi-monitor, audio, file and clipboard sharing
+- **4:4:4 full color** with AVC444-capable clients
 
 > **Why 4:4:4 matters:** most remote desktops send color at a quarter of the resolution (4:2:0), which blurs colored text and thin UI lines. With an AVC444-capable client, FornaX RDS Ai sends full color for every pixel, so code, charts, and design work stay crisp.
 
-- Full-color **AVC444 / AVC444v2 (YUV 4:4:4)** streaming — no chroma blur on text and UI
-- **Apple Silicon acceleration**: VideoToolbox **HEVC/H.264** hardware encoding (~80% lower CPU), zero-copy capture, adaptive bitrate — low-power and low-latency
-- Modern **ScreenCaptureKit** capture, multi-monitor, audio redirection, concurrent sessions
-- Works with standard RDP clients (Windows App / Microsoft Remote Desktop, etc.)
+The app is available in **Korean, English, and Japanese**. On update or uninstall, you can **keep your data** (keys, conversations, memory, knowledge base).
 
-### AI Assistant
+## ✨ Recently added
 
-<!-- SCREENSHOT (add later): in-app AI chat + model manager — then uncomment:
-<p align="center"><img src="assets/screenshots/ai-chat.png" alt="FornaX RDS Ai chat and local model manager" width="760"></p>
--->
+- 🔑 **Log in remotely right after a restart** — after an update or a power outage, connect straight from the login window.
+- 🎨 **Create images, music, and video on your Mac** — download a model once, then generate and edit media during a chat.
+- 🧠 **An assistant that doesn't forget** — what you ask it to remember is kept across conversations; it only forgets when *you* delete it.
+- 🚀 **"AI on this Mac"** — get chat, voice, and image models ready in one step.
+- 📂 **Answers from your own folders** — pick folders and the assistant searches the documents in them on your Mac.
+- 📱 **Smoother from an iPad** — faster screen updates, more responsive typing, and video that keeps playing.
 
-- **Run any local model, your choice of engine**: both **Ollama** and **Rapid-MLX (MLX)** engines are built in, so the entire open-model ecosystem is at your fingertips — Llama, Qwen, Gemma, DeepSeek, Mistral, Phi and more. Browse, download, and switch models in-app, and pick the engine that suits each model — Ollama for its broad model library, MLX for Apple Silicon–native execution. Zero token cost, full privacy
-- **Always current — monthly model & feature updates**: we ship **new models and features every month**, so the latest releases and improvements show up ready to use without waiting
-- **Developer-ready API**: exposes an **OpenAI- and Anthropic-compatible local endpoint** so tools like Claude Code, Cursor, and Aider can run against your Mac's local models
-- **Cloud when you want it**: 31+ providers selectable per task, including **Ensemble** mode that compares and synthesizes multiple AIs for a better answer
-- **Voice**: Whisper speech-to-text and spoken replies (TTS), in Korean, English, or Japanese
-- **Multi-channel**: talk to your Mac's AI from **RDP, iMessage, or CLI** — e.g. text it from your phone and it summarizes a document, books your calendar, and replies
-- **Agent capabilities**: knowledge base (RAG), persistent memory, automation & event hooks, scheduled runs; the agent asks you before acting when something is ambiguous
-- Chat conveniences: `/compact`, `/queue`, `/steer`, custom system prompts, project rule files
-- **Built-in model manager**: download local LLM and embedding (RAG) models with progress/speed/ETA, recommended models with estimated speeds, one-click Ollama setup
-- **Usage & cost dashboard**: per-provider token usage and spend at a glance, one-click jump to each provider's console and API-key page
+## Plans
 
-### App Experience
-- Fully localized app UI in **Korean, English, and Japanese**, switchable in settings
-- On update or uninstall, **choose to keep your data** (API keys, conversations, memory, knowledge base) — reinstall and pick up where you left off
+| | Free | Pro | Enterprise |
+|---|---|---|---|
+| For | Trying it on your own Mac | Individuals and teams | Large deployments |
+| Macs | 1 | 1 | Unlimited |
+| Local AI | ✅ | ✅ | ✅ |
+| Remote audio | — | ✅ | ✅ |
+| Commercial use | — | ✅ | ✅ |
+| Support | Community | Email | Priority · high availability · custom features |
 
-### Privacy & Security
-- On-device AI execution — conversations, memory, and knowledge base stay on your Mac
-- **Developer ID–signed** binaries with permission-gated automation
-- Privacy controls including auto-deletion of chat history
+See current pricing on the [**product page**](https://www.gloovir.com/products/fornax-rds-ai).
 
-## Why local AI?
+## How it compares
 
-| | Typical cloud LLM subscription | FornaX RDS Ai · Local AI |
-|---|---|---|
-| Cost | $20–hundreds per month + token billing | **$0 token cost, unlimited** |
-| Data | Sent to external servers | **Never leaves your Mac** |
-| Models | Vendor lock-in | **31+ providers, your choice** |
+| | Mac **RDP server** | 4:4:4 full color | Built-in **local AI assistant** |
+|---|:---:|:---:|:---:|
+| **FornaX RDS Ai** | ✅ | ✅ AVC444/v2 | ✅ |
+| xrdp (open source) | Linux; macOS port is unofficial | — | — |
+| RustDesk / Sunshine | own protocols, not RDP | — | — |
+| Apple Screen Sharing | Mac-to-Mac only | — | — |
+| Windows RDP | Windows only | ✅ | — |
 
-Developers get an unlimited coding assistant that never exfiltrates company code. Everyone else gets a daily assistant for summaries, scheduling, and messages — by voice if you like.
+We couldn't find another product that puts a remote desktop and an on-device AI assistant in one app. If you know one, tell us in [Discussions](../../discussions).
 
-## Built for AI development on Mac
+## For teams and enterprise
 
-FornaX RDS Ai turns any Apple Silicon Mac into a private AI workstation and a local AI server for development:
+- **No data egress by default** — AI runs on each user's Mac; internal code and documents are not sent to cloud AI unless you allow it
+- **No per-seat AI subscription** for local models
+- **Signed and notarized PKG** for MDM distribution, with permission-gated automation
+- A fit where cloud AI is restricted — finance, legal, healthcare, public sector, R&D
 
-- **OpenAI- and Anthropic-compatible local API** — point **Claude Code, Cursor, Aider**, or any OpenAI-compatible app at your Mac and run them against local models. A drop-in local replacement for cloud APIs, at $0 token cost.
-- **Run local LLMs with Ollama and MLX** — Llama, Qwen, Gemma, DeepSeek, Mistral, Phi and more, **on-device and offline** on Apple Silicon.
-- **Build and serve** — prototype AI apps, power a coding assistant, run a private **RAG** knowledge base, or stand up an internal AI service that never sends data off the machine.
-- **Develop from anywhere** — work on an **iPad or Windows** laptop while a powerful **Mac Mini / Mac Studio** does the actual inference, over standard RDP.
+## Trust and honesty
 
-> A private, self-hosted, offline AI stack on your own hardware — local LLM, on-device inference, and a remote desktop, in one app.
-
-## For Enterprise — full AI capability for your Mac users, entirely on-premises
-
-For organizations, FornaX RDS Ai means every Mac in the company can deliver a **complete AI service to its user with nothing leaving the building**.
-
-- **Zero data egress by default**: AI runs on each employee's Mac. Internal code, documents, and conversations are never sent to external AI providers — a compliance answer, not just a privacy feature
-- **No per-seat AI subscription**: local LLMs eliminate recurring per-user LLM costs across the fleet; cloud providers remain an opt-in, per-task choice under your policy
-- **One install, two capabilities**: the same package gives employees a private AI assistant *and* secure full-quality remote access to their office Mac for hybrid work — over standard RDP, no new client software to deploy
-- **Manageable & verifiable**: signed and notarized PKG for MDM distribution, permission-gated automation, and a network-behavior transparency document (in preparation) so your security team can verify what the software does
-- **Sensitive-industry fit**: ideal where cloud AI is restricted or prohibited — finance, legal, healthcare, defense, R&D
-
-> Sufficient is the wrong word — for most everyday workloads (coding assistance, document summarization, drafting, voice transcription), **on-device AI on Apple Silicon is not a compromise; it's the more secure default**. Cloud models stay available for the rare tasks that need them.
-
-## Honest by design — strengths, limits, and our commitment
-
-We want you to know exactly what you're getting. Here is our candid assessment — both sides.
-
-**What we believe we do better than anyone:**
-
-- The only remote desktop — on any platform — with a built-in on-device AI assistant
-- A polished, signed, and supported native RDP server for macOS, where other options are source-only projects you build yourself
-- Genuine 4:4:4 full-color streaming with Apple Silicon hardware acceleration — quality you can verify yourself in 30 seconds
-
-**What we're honest about, and how we'll address it:**
-
-| We know that... | Our commitment |
-|---|---|
-| A closed-source binary that requests screen, input, and iMessage permissions demands a high level of trust | Every release is **Developer ID–signed and notarized** with SHA256 checksums. We will publish a network-behavior transparency document, and your AI data verifiably never leaves your Mac |
-| macOS updates can change capture and permission behavior | We track every macOS beta and commit to **compatibility updates before public OS releases** |
-| We're a new product competing with mature remote desktop tools | We ship **user-driven continuous updates** — your Issues and Discussions directly shape each release |
-| AI features evolve fast | We ship **new models and features every month**, so the newest models and improvements are ready to use shortly after release — alongside continuous updates to providers and agent capabilities |
-
-This is not a "release and forget" product. **The roadmap below is a promise, and this repository is where we keep it.**
+- **Closed source, and we know that asks for trust.** The app needs screen, input, and (optionally) iMessage permissions. Every release is **Developer ID–signed and notarized**, and with local models your conversations and files stay on your Mac.
+- **A network-behavior transparency document is in preparation**, so you can verify what the app sends and where.
+- **macOS changes fast.** We track macOS betas and ship compatibility updates.
+- **We're new.** Your [Issues](../../issues) and [Discussions](../../discussions) directly shape what we build next.
 
 ## FAQ
 
 **How do I run a local LLM on my Mac without the terminal?**
-Install FornaX RDS Ai, open the model manager, and pick a model. Both Ollama and MLX engines are built in; the app checks memory and disk before downloading and starts the model for you.
+Install FornaX RDS Ai, open the model manager, and pick a model. Ollama and MLX are built in; the app checks memory and disk before downloading and starts the model for you.
 
 **Which Mac do I need for local AI?**
-Any Apple Silicon Mac (M1 or later) on macOS 13 Ventura or later. More unified memory lets you run larger models — the app shows what fits your Mac before you download.
+Any Apple Silicon Mac (M1 or later) on macOS 13 Ventura or later. More unified memory lets you run larger models — the app shows what fits before you download.
 
 **Can I use Claude Code, Cursor, or Aider with local models on my Mac?**
-Yes. FornaX RDS Ai exposes an OpenAI- and Anthropic-compatible local endpoint, so those tools can run against models on your own Mac.
+Yes. FornaX RDS Ai exposes an OpenAI- and Anthropic-compatible local endpoint for those tools.
 
 **Is there an RDP server for macOS?**
-Yes — FornaX RDS Ai is a native RDP server for macOS. Connect with standard clients such as Windows App (Microsoft Remote Desktop) on Windows, iPad, iPhone, or another Mac.
+Yes — FornaX RDS Ai is a native RDP server for macOS. Use standard clients such as Windows App (Microsoft Remote Desktop) on Windows, iPad, iPhone, or another Mac.
 
 **How do I remote into my Mac from an iPad or a Windows PC?**
-Install FornaX RDS Ai on the Mac, then add the Mac in the Windows App / Remote Desktop client on your iPad or PC. You get the full Mac desktop, with 4:4:4 full color on clients that support AVC444.
+Install FornaX RDS Ai on the Mac, then add the Mac in the Windows App / Remote Desktop client on your iPad or PC.
 
 **Can I connect after my Mac restarts, without logging in at the Mac?**
-Yes. After an update or a power outage, you can connect straight from the login window — nobody needs to sit at the Mac first.
+Yes. After an update or a power outage, you can connect straight from the login window.
+
+**Is it free?**
+You can start for free on one Mac with local AI. Pro adds remote audio, commercial use, and email support; Enterprise covers large deployments. See the [product page](https://www.gloovir.com/products/fornax-rds-ai).
 
 **Does my data leave my Mac?**
-Not when you use local models. Conversations, memory, and your files stay on the Mac. Cloud AI providers are optional and used only when you choose them.
+Not when you use local models. Cloud AI providers are optional and used only when you choose them.
 
 ## Requirements
 
@@ -247,21 +142,16 @@ Not when you use local models. Conversations, memory, and your files stay on the
 
 ## Roadmap
 
-- [x] Product introduction (this page)
-- [x] **Public binary release** — signed & notarized PKG installer, available now
+- [x] Signed & notarized public release
 - [ ] Documentation & quick-start guide
 - [ ] Network-behavior & privacy transparency document
-- [ ] New AI models and features shipped every month
-- [ ] Continuous updates driven by user feedback (Issues / Discussions open now)
+- [ ] New AI models and features every month
+- [ ] Continuous updates driven by your feedback
 
-## License & Distribution
+## License & Contact
 
-FornaX RDS Ai is **proprietary software distributed in binary form**. Source code is not published. License terms (EULA) are included with the binary release.
-
-## Contact
-
-- Website: [gloovir.com](https://gloovir.com)
-- Inquiries: contact@gloovir.com
+FornaX RDS Ai is **proprietary software distributed in binary form**; license terms (EULA) are included with the app.
+Website: [gloovir.com](https://gloovir.com) · Inquiries: contact@gloovir.com
 
 ---
 
