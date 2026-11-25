@@ -15,6 +15,7 @@
 [![Free to start](https://img.shields.io/badge/%E7%84%A1%E6%96%99%E3%81%A7-%E5%A7%8B%E3%82%81%E3%82%89%E3%82%8C%E3%82%8B-brightgreen)](https://www.gloovir.com/products/fornax-rds-ai)
 [![Platform](https://img.shields.io/badge/platform-macOS%2013%20Ventura%2B-blue)]()
 [![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-only-black)]()
+[![Product Hunt](https://img.shields.io/badge/Product%20Hunt-FornaX%20RDS%20Ai-DA552F?logo=producthunt&logoColor=white)](https://www.producthunt.com/products/fornax-rds-ai?launch=fornax-rds-ai)
 
 <br>
 <img src="assets/screenshots/hero.png" alt="FornaX RDS Ai — iPad から Mac を使い、ローカル AI モデルが Mac の中で回答している様子" width="900">
